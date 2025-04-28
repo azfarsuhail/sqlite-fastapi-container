@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "sqlite"
+version = "0.1.0"
+description = ""
+authors = ["Azfar Suhail <138823481+azfarsuhail@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+uvicorn = {extras = ["standard"], version = "^0.29.0"}
+sqlmodel = "^0.0.16"
+fastapi = "^0.110.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
